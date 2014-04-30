@@ -1,0 +1,496 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 17:32:30 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (1.1ms)
+Completed 200 OK in 12ms (Views: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 17:38:40 -0400
+
+AbstractController::ActionNotFound (The action 'home' could not be found for StaticPagesController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/petar/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/petar/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/petar/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 17:39:33 -0400
+Processing by StaticPagesController#welcome as HTML
+  Rendered static_pages/welcome.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 492ms (Views: 484.3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 17:39:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-29 17:39:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:34 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+Processing by StaticPagesController#welcome as HTML
+  Rendered static_pages/welcome.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-29 17:39:39 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 17:46:36 -0400
+Processing by StaticPagesController#welcome as HTML
+  Rendered static_pages/welcome.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation/functions.
+Load paths:
+  /home/petar/code/level/lvl/app/assets/images
+  /home/petar/code/level/lvl/app/assets/javascripts
+  /home/petar/code/level/lvl/app/assets/stylesheets
+  /home/petar/code/level/lvl/vendor/assets/javascripts
+  /home/petar/code/level/lvl/vendor/assets/stylesheets
+  /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/turbolinks-2.2.2/lib/assets/javascripts
+  /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /home/petar/code/level/lvl/app/assets/stylesheets/foundation_and_overrides.scss:13)):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "vendor/modernizr" %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:13
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__3896619598019823268_42691180'
+
+
+  Rendered /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/petar/.rvm/gems/ruby-2.0.0-p451@petar/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 17:49:31 -0400
+Processing by StaticPagesController#welcome as HTML
+  Rendered static_pages/welcome.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2747ms (Views: 2739.5ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-29 17:49:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+Processing by StaticPagesController#welcome as HTML
+  Rendered static_pages/welcome.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 12.8ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-29 18:03:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+Processing by StaticPagesController#welcome as HTML
+  Rendered static_pages/welcome.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-29 18:16:06 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+Processing by StaticPagesController#welcome as HTML
+  Rendered static_pages/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.6ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-29 18:21:02 -0400

@@ -1,0 +1,9 @@
+== README
+
+To run this app make sure you have following things installed:
+1) MongoDB
+2) NodeJs
+3) Ruby 2.0 / Rails 4.0
+4) RVM ?
+
+
